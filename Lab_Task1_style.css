@@ -1,0 +1,101 @@
+.box{
+  position: center;
+  top: 40%;
+  margin: 0 auto;
+  height: 1700px;
+  width: 900px;
+  background: #8eff8e;
+}
+
+.insidemain{
+  margin:auto;
+  position:center;
+  box-sizing:border-box;
+  width:700px;
+  height:650px;
+  padding:30px;
+  border: 2px solid grey;
+
+}
+
+
+
+.insidesubmain{
+  margin:auto;
+  position:center;
+  box-sizing:border-box;
+  width:700px;
+  height:270px;
+  padding:30px;
+  border: 2px solid grey;
+
+}
+
+
+legend{
+  background-color: #DDA0DD;
+  color: black;
+  padding: 4px 40px;
+}
+
+input[type="text"],input[type="date"],input[type="number"],input[type="email"]{
+  background-color:yellow;
+  border-radius:7px 0px 0px 7px;
+  width:240px;
+  display:inline-block;
+  float:right;
+
+}
+.gen{
+margin-left:400px;
+}
+form.opt{
+margin-left:400px;
+}
+
+
+
+input[type="file"]{
+  background-color:#29e6ff;
+  border-radius:7px 0px 0px 7px;
+  width:450px;
+  display:inline-block;
+  float: right;
+}
+
+
+
+.button{
+  border-radius:12px;
+
+}
+
+.button1{
+  width:250px;
+  background-color: #29e6ff;
+}
+
+.button2{
+  width:350px;
+  background-color: #3cff3c;
+}
+
+.button3{
+  width:250px;
+  background-color: #29e6ff;
+}
+
+.button4{
+  width:350px;
+  background-color: #3cff3c;
+
+}
+
+/Alligning labels/
+
+label{
+  text-align:center;
+  width:300px;
+  display:inline-block;
+
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="">
+  <body style="background-color:rgb(89, 161, 255); ">
+
+    <div class="box">
+
+
+      <fieldset class="insidemain">
+        <legend align="left">Personal Information:</legend>
+
+        <label for="firstname">First name*:</label>
+        <input type="text" id="firstname" name="fname" placeholder="your first name">
+        <br><br>
+
+        <label for="lastname">Last name*:</label>
+        <input type="text" id="lastname" name="lname">
+        <br><br>
+
+
+        <br><br>
+
+          <p>Gender:</p>
+
+<div class="gen">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Others</label><br><br>
+</div>
+
+
+        <br><br>
+
+
+          <label for="birthday">Date of Birth*:</label>
+          <input type="date" id="birthday" name="birthday">
+
+        <br><br>
+
+        <label for="age">Age(between 18 and 22)*:</label>
+        <input type="number" id="age" name="age" min="18" max="22">
+
+        <br><br>
+
+        <label for="email">E-mail*:</label>
+        <input type="email" id="email" name="Email">
+        <br><br>
+
+        <label for="Phone">Personal Phone Number*:</label>
+        <input type="number" id="Phone" name="ph_no" min="9886342341" max="9934452312">
+
+        <br><br>
+
+        <label for="Linkdin">Linked In Profile*:</label>
+        <input type="text" id="Linkdin" name="linkedin">
+        <br><br>
+
+        <label for="favcolor">Your favourite color*:</label>
+        <input type="text" id="favcolor" name="favourite_color">
+        <br><br>
+
+
+
+      </fieldset>
+
+
+      <fieldset class="insidesubmain">
+        <legend align="left">Educational Qualification:</legend>
+
+        <form class="opt">
+          <input type="checkbox" id="Bachelors" name="Btech" value="Btech">
+          <label for="Bachelors">B.Tech :</label>
+
+          <select name="stars">
+            <option value="1">BCI</option>
+            <option value="2">BCE</option>
+            <option value="3">BCL</option>
+          </select>
+          <br><br>
+
+
+          <input type="checkbox" id="Masters" name="Mtech" value="Mtech">
+          <label for="Masters">M.Tech :</label>
+
+          <select name="stars">
+            <option value="1">CSE</option>
+            <option value="2">IT</option>
+            <option value="3">ECE</option>
+          </select>
+          <br><br>
+
+        </form>
+
+
+        <label for="Interest">Area of Interest*:</label>
+        <input type="text" id="Interest" name="Interest">
+          <br><br>
+
+
+
+      </fieldset>
+
+
+
+      <fieldset class="insidesubmain">
+        <legend align="left">Job Details</legend>
+
+        <form>
+          <label for="Experience">Years of Experience*:</label>
+          <input type="range" id="Experience" style="margin-left:400px;" name="Exp" min="0" max="30">
+        </form>
+
+        <br><br>
+
+        <label for="Job">Job Title*:</label>
+
+        <input type="text" name="Job_title" >
+
+        <br><br>
+        <br><br>
+
+        <textarea id="Jobreview" name="jobreview" rows="4" cols="70">
+
+          Job Description.
+        </textarea>
+
+      </fieldset>
+
+      <br><br>
+
+
+      <form>
+        <label for="myfile" style="margin-left:50px;">Upload Your Recent Passport Size Photo:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+
+
+      </form>
+
+      <form>
+        <label for="myfile" style="margin-left:50px;">Upload Your Aadhar:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+
+
+      </form>
+
+      <br><br>
+
+      <center>
+      <button class="button button1" type="submit" id="val">Don't Validate</button><br>
+      <br>
+
+      <button class="button button2" type="submit" id="js"> Submit using JS Validation</button><br>
+      <br>
+
+      <button class="button button3" type="submit" id="sub">Submit using PHP Validation</button><br>
+      <br>
+
+      <button class="button button4" type="reset">Form Reset</button><br>
+
+    </center>
+
+
+    </div>
+
+  </body>
+</html>
